@@ -16,24 +16,28 @@
     <div class='container'>
     <section class='wrapper'>
       <img src="C:/Users/jhon/Desktop/PROYECTO/Proyecto-Romulo-Gallegos-master/IMAGENES/logo.png">
-      <p>República Bolivariana de Venezuela
-      Ministerio del Poder Popular para la Educacion
-      E.T.R.Romulo Gallegos
-      Maracaibo - Edo.Zulia</p>
+      <p>República Bolivariana de Venezuela</p>
+      <p>Ministerio del Poder Popular para la Educacion</p>
+      <p>E.T.R.Romulo Gallegos</p>
+      <p>Maracaibo - Edo.Zulia</p>
       <h1>FICHA DE INSCRIPCION</h1>
+    </section>
+    <section class='wrapper'>
       <h4> DATOS DEL ESTUDIANTE </h4> <form type='text' ></form> <form type='text'>de 20</form>
       <form>
       <p>Nombres y Apellidos</p>
-      <input type="text" />
+      <input type="text" name='Nombres' />
       
       <p>C.I</p>
-      <input type="radio">V <input type="radio"/>E
-      <input type="text" placeholder="C.I" >
+      <input type="radio" name='C.I' />V
+      <input type="radio" name='C.I' />E
+      <input type="text" placeholder="C.I" name='C.I numero' />
       
       <p>Fecha de Nacimiento:</p>
-      <input type='text' placeholder='DD/MM/AAAA' />
+      <input type='text' placeholder='DD/MM/AAAA'name='Fecha de Nacimiento' />
+      
       <p>Lugar de Nacimiento:</p>
-      <input type='text'/>
+      <input type='text'name='Lugar de Nacimiento' />
       
       <p>Año</p>
       <select placeholder="Año" name="Año">
@@ -44,146 +48,151 @@
         <option value='5to' >5to</option>
         <option value='6to' >6to</option>
       </select>
-      
+     
       <p>Mención:</p>
-      <input type="text" placeholder="Mención" name="Mencion" />
+      <input type="text" placeholder="Mención" name="Mención" />
       
-      <p>Seccion:</p>
-      <input type="text" placeholder="Sección" name="Seccion" />
+      <p>Sección:</p>
+      <input type="text" placeholder="Sección" name="Sección" />
       
       <p>¿Repite?:</p>
-      <input type="radio"/>Si <input type="radio"/>No
+      <input type="radio" name='Repite' />Si 
+      <input type="radio" name='Repite' />No
       
       <p>Materias que repite:</p>
-      <input type="text" placeholder="Materias que repite" />
+      <input type="text" placeholder="Materias que repite" name='Materias que Repite' />
       
-      <p>¿Asignaturas pendientes?:</p>
-      <input type="radio"/>Si <input type="radio"/>No
+      <p>¿Asignaturas Pendientes?:</p>
+      <input type="radio" name='Asignaturas Pendientes' />Si
+      <input type="radio" name='Asignaturas Pendientes' />No
       
       <p>Cual?:</p>
-      <input type="text" placeholder="Cual?" />
+      <input type="text" placeholder="Cual?" name='Cual' />
      
       <p>Talla:</p>
-      <input type="text" placeholder="Talla" />
+      <input type="text" placeholder="Talla" name='Talla' />
       
       <p>Peso:</p>
-      <input type="text" placeholder="Peso" />
+      <input type="text" placeholder="Peso" name='Peso' />
       
-      <p>Plantel de procedencia:</p>
-      <input type="text" placeholder="Plantel de procedencia" />
+      <p>Plantel de Procedencia:</p>
+      <input type="text" placeholder="Plantel de procedencia" name='Platel de Procedencia' />
       
       <p>Presente algun problema de salud que le impida hacer deportes?:<p>
-      <input type="radio"/>Si 
-      <input type="radio"/>No 
-      <input type="text"/>Cual?
+      <input type="radio" name='Problemas de Salud' />Si 
+      <input type="radio" name='Problemas de Salud' />No 
+      <input type="text" name='Problemas de Salud' />Cual?
       
-      <p>Email del estudiante:</p>
-      <input type="email"/>
+      <p>Correo Electrónico del Estudiante:</p>
+      <input type="email" name='Correo' />
       
-      <p>Telefono:</p>
-      <input type="text"/>
-      
+      <p>Telefono Celular:</p>
+      <input type="text" name='Celular' />
     </section>
-      
+    
     <section class='wrapper'>
       <h2>DATOS DEL REPRESENTANTE</h2>
       <h4>DATOS DE LA MADRE</h4>
       
-      
       <p>Nombres y Apellidos:</p>
-      <input type="text" />
+      <input type="text" name='Nombres' />
       
       <p>Telefonos:</p>
-      <input type="text" placeholder="Celular"/>
-      <input type="text" placeholder="Vivienda o Habitacion"/>
-      <input type="text" placeholder="Ofisina o Area de Trabajo"/>
+      <input type="text" placeholder="Celular" name='Celular' />
+      <input type="text" placeholder="Vivienda o Habitación" name='Vivienda o Habitación' />
+      <input type="text" placeholder="Ofisina o Area de Trabajo" name='Ofisina o Area de Trabajo' />
       
       <p>Lugar de Trabajo:</p>
-      <input type="text"/>
-      <p>DIRECCIÓN:</p>
-      <input type="text" placeholder="Vivienda o Habitacion"/>
+      <input type="text" name='Lugar de Trabajo' />
+      
+      <p>Dirección:</p>
+      <input type="text" placeholder="Vivienda o Habitacion" name='Dirección' />
       
       <p>Profresión:</p>
-      <input type="text"/>
+      <input type="text" name='Profesión' />
+    </section>
       
-      <section class='wrapper' >
+    <section class='wrapper' >
       <h4>DATOS DEL PADRE</h4>
       <p>Nombres y Apellidos:</p>
-      <input type="text" />
+      <input type="text" name='Nombres' />
       
       <p>Telefonos:</p>
-      <input type="text" placeholder="Celular"/>
-      <input type="text" placeholder="Vivienda o Habitacion"/>
-      <input type="text" placeholder="Ofisina o Area de Trabajo"/>
+      <input type="text" placeholder="Celular" name='Celular' />
+      <input type="text" placeholder="Vivienda o Habitacion" name='Vivienda o Habitación' />
+      <input type="text" placeholder="Ofisina o Area de Trabajo" name='Ofisina o Area de Trabajo' />
       
       <p>Lugar de Trabajo:</p>
-      <input type="text"/>
-      <p>DIRECCION</p>
-      <input type="text" placeholder="Vivienda o Habitacion"/>
+      <input type="text" name='Lugar de Trabajo' />
+      
+      <p>Dirección</p>
+      <input type="text" placeholder="Vivienda o Habitacion" name='Dirección' />
       
       <p>Profresión:</p>
-      <input type="text"/>
-      
-      <section class='wrapper' >
+      <input type="text" name='Profesión' />
+     </section>
+    
+    <section class='wrapper' >
       <h4>REPRESANTE LEGAL EN EL PLANTEL</h4>
       <p>Nombres y Apellidos:</p>
-      <input type="text" />
-      
+      <input type="text" name='Nombre' />
       <p>Telefonos:</p>
-      <input type="text" placeholder="Celular"/>
-      <input type="text" placeholder="Vivienda o Habitacion"/>
-      <input type="text" placeholder="Ofisina o Area de Trabajo"/>
+      <input type="text" placeholder="Celular" name='Celular' />
+      <input type="text" placeholder="Vivienda o Habitacion" name='Vivienda o Habitacion' />
+      <input type="text" placeholder="Ofisina o Area de Trabajo" name='Ofisina o Area de Trabajo' />
       
       <p>Lugar de Trabajo:</p>
-      <input type="text"/>
-      <p>DIRECCIÓN</p>
-      <input type="text" placeholder="Vivienda o Habitacion"/>
+      <input type="text" name='Lugar de Trabajo' />
       
-      <p>Profresión:</p>
-      <input type="text"/>
+      <p>Dirección</p>
+      <input type="text" placeholder="Vivienda o Habitacion" name='Dirección' />
+      
+       <p>Profresión:</p>
+      <input type="text" name='Profesión' />
       
       <p>Parentesco:</p>
-      <input type="text"/>
+      <input type="text" name='Parentesco' />
       
-      <p>Correo Electronico:</p>
-      <input type="email"/>
+      <p>Correo Electrónico:</p>
+      <input type="email" name='Email' />
       
-      </section>
-      <section class='wrapper' >
+    </section>
+     <section class='wrapper' >
       <h4>PERSONA AUTORIZDA POR EL REPRESENTANTE EN CASO DE NO ASISTIR EL MISMO</h4>
       
       <p>Nombres y Apellidos:</p>
-      <input type="text" />
+      <input type="text" name='Nombres' />
       
       <p> Telefonos:</p>
-      <input type="text" placeholder="Celular"/>
-      <input type="text" placeholder="Vivienda o Habitacion"/>
-      <input type="text" placeholder="Ofisina o Area de Trabajo"/>
+      <input type="text" placeholder="Celular" name='Celular' />
+      <input type="text" placeholder="Vivienda o Habitacion" name='Vivienda o Habitación' />
+      <input type="text" placeholder="Ofisina o Area de Trabajo" name='Ofisina o Area de Trabajo' />
       
       <p>Lugar de Trabajo:</p>
-      <input type="text"/>
-      <p>DIRECCIÓN</p>
-      <input type="text" placeholder="Vivienda o Habitacion"/>
+      <input type="text" name='Lugar de Trabajo' />
       
-      <p>Profresion:</p>
-      <input type="text"/>
+      <p>Dirección</p>
+      <input type="text" placeholder="Vivienda o Habitacion" name='Dirección' />
+      
+      <p>Profresión:</p>
+      <input type="text" name='Profesión' />
       
       <p>Parentesco:</p>
-      <input type="text"/>
+      <input type="text" name='Parentesco' />
       
     </section>
       
     </form>
     <footer>
-    <h4>COMPROMISOS DEL REPRSENTANTE</h4>
-    <ol>
-      <li>El representante debe asistira los llamados de reunión o citación que se realicen. En casocontrario se llamara a traves de protección escolar.</li>
-      <li>El representante se compromete a que el alumno inscrito, en caso de ser repitiente, debe asistir a todas las materias aprobadas y no aprobadas.</li>
-      <li>El alumno debe asistir diariamente con el uniforme en regla, establacido en el manual de convivencia <a href='(Art.63)'> Art.63 . <a/></li>
-      <li>El alumno debe asistir al plantel con morraltransparent, segun lo establecido en el art.73, por medidas de seguridad .</li>
+      <h4>COMPROMISOS DEL REPRSENTANTE</h4>
+      <ol>
+        <li>El representante debe asistira los llamados de reunión o citación que se realicen. En casocontrario se llamara a traves de protección escolar.</li>
+        <li>El representante se compromete a que el alumno inscrito, en caso de ser repitiente, debe asistir a todas las materias aprobadas y no aprobadas.</li>
+        <li>El alumno debe asistir diariamente con el uniforme en regla, establacido en el manual de convivencia <a href='(Art.63)'> Art.63 . <a/></li>
+        <li>El alumno debe asistir al plantel con morraltransparent, segun lo establecido en el art.73, por medidas de seguridad .</li>
     </ol>
-    <p>________________________</p>                               <p>___________________</p>
-    <p>Firma del representante</p>                                <p>Nombre del Docente</p>
+    <p>________________________</p> <p>___________________</p>
+    <p>Firma del representante</p>  <p>Nombre del Docente</p>
     </footer>
     <div/>
   </body>
