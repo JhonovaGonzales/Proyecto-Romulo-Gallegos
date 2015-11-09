@@ -23,7 +23,11 @@
       <h1>FICHA DE INSCRIPCION</h1>
     </section>
     <section class='wrapper'>
-      <h4> DATOS DEL ESTUDIANTE </h4> <form type='text' ></form> <form type='text'>de 20</form>
+      <h4> DATOS DEL ESTUDIANTE </h4> 
+      <form>
+        <p>Fecha</p>
+        <input type='date' />
+      </form>
       <form>
       <p>Nombres y Apellidos</p>
       <input type="text" name='Nombres' />
@@ -31,10 +35,10 @@
       <p>C.I</p>
       <input type="radio" name='C.I' />V
       <input type="radio" name='C.I' />E
-      <input type="text" placeholder="C.I" name='C.I numero' />
+      <input type="number" placeholder="C.I" name='C.I numero' />
       
       <p>Fecha de Nacimiento:</p>
-      <input type='text' placeholder='DD/MM/AAAA'name='Fecha de Nacimiento' />
+      <input type='date' name='Fecha de Nacimiento' />
       
       <p>Lugar de Nacimiento:</p>
       <input type='text'name='Lugar de Nacimiento' />
@@ -87,7 +91,7 @@
       <input type="email" name='Correo' />
       
       <p>Telefono Celular:</p>
-      <input type="text" name='Celular' />
+      <input type="tel" name='Celular' />
     </section>
     
     <section class='wrapper'>
