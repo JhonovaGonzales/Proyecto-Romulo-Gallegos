@@ -2,6 +2,7 @@ body {
   background:#2ECCFA;
   text-align:center;
 }
-div {
+.wrapper {
+	margin:50px;
   background:#FFFFFF;
 }
