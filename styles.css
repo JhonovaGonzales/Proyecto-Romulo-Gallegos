@@ -3,6 +3,7 @@ body {
   text-align:center;
 }
 .wrapper {
+	margin:true;
 	margin:50px;
   background:#FFFFFF;
 }
