@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <head>
   <title> Romulo Gallegos </title>
   <meta charset='UTF-8' />
@@ -29,7 +29,7 @@
         <input type="text" name='Nombres' />
         <p>C.I</p>
         <input type="radio" name='C.I' />V
-        <input type="radio" name='C.I' />E
+        <input type="radio" name='C.I' />E<br>
         <input type="number" placeholder="C.I" name='C.I numero' />
         <p>Fecha de Nacimiento:</p>
         <input type='date' name='Fecha de Nacimiento' />
@@ -49,10 +49,12 @@
         <p>Sección:</p>
         <input type="text" placeholder="Sección" name="Sección" />
         <p>¿Repite?:</p>
-        <input type="radio" name='Repite' />Si
-        <input type="radio" name='Repite' />No
+        <input type="radio" name='Repite' id='repite1'/>Si
+        <input type="radio" name='Repite' id='repite2'/>No
+        <div id='repite'>
         <p>Materias que repite:</p>
         <input type="text" placeholder="Materias que repite" name='Materias que Repite' />
+        </div>
         <p>¿Asignaturas Pendientes?:</p>
         <input type="radio" name='Asignaturas Pendientes' />Si
         <input type="radio" name='Asignaturas Pendientes' />No
@@ -68,7 +70,8 @@
           <p>
             <input type="radio" name='Problemas de Salud' />Si
             <input type="radio" name='Problemas de Salud' />No
-            <input type="text" name='Problemas de Salud' />Cual?
+            <p>Cual?<p>
+            <input type="text" name='Problemas de Salud' />
             <p>Correo Electrónico del Estudiante:</p>
             <input type="email" name='Correo' />
             <p>Telefono Celular:</p>
