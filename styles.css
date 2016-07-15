@@ -1,0 +1,23 @@
+body {
+	background-color: #00ffff;
+	width: 100%;
+	max-width: 1000px;
+	margin:auto;
+
+}
+
+div, header	{
+	background-color: #FFFFFF;
+}
+form	{
+	align-content: center;
+}
+
+.secciones {
+	padding: 10px;
+	border-radius: 10px;
+	border-style: solid;
+}
+p {
+	max-width: 500px;
+}
